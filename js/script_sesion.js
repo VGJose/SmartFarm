@@ -16,11 +16,11 @@ signInButton.addEventListener('click', () => {
 });
 
 backToMain1.addEventListener('click', () => {
-    window.location.href = 'landing.html'; // Change this to your desired URL
+    window.location.href = 'index.html'; // Change this to your desired URL
 });
 
 backToMain2.addEventListener('click', () => {
-    window.location.href = 'landing.html'; // Change this to your desired URL
+    window.location.href = 'index.html'; // Change this to your desired URL
 });
 
 

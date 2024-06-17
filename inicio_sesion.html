@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesion</title>
+    <link rel="stylesheet" href="css/styles_sesion.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form id="registerForm">
+                <h1>Crear Cuenta</h1>
+                <input type="text" placeholder="Name" required />
+                <input type="email" placeholder="Email" required />
+                <input type="password" placeholder="Password" required />
+                <button type="submit">Iniciar sesion</button>
+                <button type="button" class="back-button" id="backToMain1">Atras</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form id="loginForm">
+                <h1>Iniciar sesion</h1>
+                <input type="email" placeholder="Email" required />
+                <input type="password" placeholder="Password" required />
+                <button type="submit">Iniciar sesion</button>
+                <button type="button" class="back-button" id="backToMain2">Atras</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Bienvenido!</h1>
+                    <p>Para mantenerse conectado con nosotros, inicie sesion con su información personal</p>
+                    <button class="ghost" id="signIn">Iniciar sesion</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Comenzar registro</h1>
+                    <p>Introduce tus datos personales y comienza tu viaje con nosotros.</p>
+                    <button class="ghost" id="signUp">Registrarse</button>
+					
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script_sesion.js"></script>
+</body>
+</html>
